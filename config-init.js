@@ -9,7 +9,8 @@ glob('config/*.sample.js', function (err, files) {
     files.forEach(function (file) {
         var newFileName = file.replace(/\.sample(\.\w+)$/, '$1');
         if ( ! fs.existsSync(newFileName)) {
-            copy(file, newFileName)
+            copy(file, newFileName);
+            console.log('%s copied to %s', file, newFileName);
         }
     });
 });
