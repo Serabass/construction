@@ -1,5 +1,7 @@
+.idea
 node_modules
-public/bower_components
+app/public/bower_components/**
+app/public/bower_components
 npm-debug.log
 config/*.js
 !config/*.sample.js
