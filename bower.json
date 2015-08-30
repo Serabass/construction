@@ -1,0 +1,21 @@
+{
+  "name": "construction",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Serabass/construction",
+  "authors": [
+    "Serabass <serabass565@gmail.com>"
+  ],
+  "main": "app/index.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/public/bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5",
+    "jquery": "~2.1.4"
+  }
+}
