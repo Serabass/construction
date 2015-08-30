@@ -1,2 +1,2 @@
-npm start config-init
+npm run config-init
 npm i
