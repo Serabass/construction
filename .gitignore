@@ -1,6 +1,5 @@
 .idea
 node_modules
-app/public/bower_components/**
 app/public/bower_components
 npm-debug.log
 config/*.js
