@@ -1,4 +1,3 @@
-import {db} from './db'
 import {Mapping, Model, $} from './models'
 
 export class Book extends Model {
@@ -27,15 +26,15 @@ export class Book extends Model {
     }
 
     public static loadAll():Promise<Book[]> {
-        return super.constructor.loadAll<Book>();
+        return super.loadAll<Book>();
     }
 
     public static load(ids:number[]):Promise<Book[]> {
-        return super.constructor.load<Book>(ids);
+        return super.load<Book>(ids);
     }
 
     public static one(id:number):Promise<Book> {
-        return super.constructor.one<Book>(id);
+        return super.one<Book>(id);
     }
 
     public save():Promise<number> {
@@ -68,7 +67,7 @@ export class Author extends Model {
     }
 
     public static one(id:number):Promise<Author> {
-        return super.constructor.one<Author>(id);
+        return super.one<Author>(id);
     }
 
 }

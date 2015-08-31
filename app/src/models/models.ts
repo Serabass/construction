@@ -78,11 +78,11 @@ export class Model {
         }
     }
 
-    public manyToOne(mappings:{}) {
+    public static manyToOne(mappings:{}) {
         return this.map(Mapping.manyToOne, mappings);
     }
 
-    public oneToMany(mappings:{}) {
+    public static oneToMany(mappings:{}) {
         return this.map(Mapping.oneToMany, mappings);
     }
 
