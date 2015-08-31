@@ -1,6 +1,6 @@
 .idea
 node_modules
-app/public/bower_components
+app/dest
 npm-debug.log
 config/*.js
 !config/*.sample.js
